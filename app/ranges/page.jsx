@@ -78,8 +78,8 @@ const Gallery = () => {
         </h1>
         <p className="text-lg mb-6">Go have fun and enjoy that Pew Pew Life!</p>
         <p className="text-lg">
-          Please familiarize yourself with each venue's rules and regulations
-          before you plan your trip.
+          Please familiarize yourself with each venue&apos;s rules and
+          regulations before you plan your trip.
         </p>
       </div>
 

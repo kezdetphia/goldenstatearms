@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
+import { Card, CardBody } from "@nextui-org/card";
 import { Divider } from "@nextui-org/divider";
 
 export default function ContactUsCard() {

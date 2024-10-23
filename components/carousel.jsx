@@ -1,13 +1,14 @@
 "use client";
+
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
 import Image from "next/image";
 import one from "../public/1.jpg";
 import two from "../public/2.jpg";
 import three from "../public/3.jpg";
 import { useState } from "react";
-import "swiper/css";
-import "swiper/css/autoplay";
-import { Autoplay } from "swiper/modules";
 
 const Carousel = () => {
   const [enlargedImage, setEnlargedImage] = useState(null);
