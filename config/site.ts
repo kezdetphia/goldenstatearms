@@ -20,6 +20,18 @@ export const siteConfig = {
       label: "Contact Us",
       href: "/contact",
     },
+    {
+      label: "Faq",
+      href: "/faq",
+    },
+    {
+      label: "Local Ranges",
+      href: "/ranges",
+    },
+    {
+      label: "Used Items For Sale",
+      href: "/forSale",
+    },
   ],
   navMenuItems: [
     {
@@ -32,12 +44,25 @@ export const siteConfig = {
     },
     {
       label: "Gallery",
-      href: "/pricing",
+      href: "/gallery",
     },
     {
       label: "Contact Us",
-      href: "/blog",
+      href: "/contact",
     },
+    {
+      label: "Faq",
+      href: "/faq",
+    },
+    {
+      label: "Local Ranges",
+      href: "/ranges",
+    },
+    {
+      label: "Used Items For Sale",
+      href: "/forSale",
+    },
+
     // {
     //   label: "Calendar",
     //   href: "/calendar",

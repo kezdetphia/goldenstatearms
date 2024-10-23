@@ -1,75 +1,77 @@
 "use client";
-import dynamic from "next/dynamic";
-import Image from "next/image";
+import { Button } from "@nextui-org/button";
+import Carousel from "../../components/carousel";
+import Link from "next/link";
+import { Divider } from "@nextui-org/divider";
 
-import one from "../../public/1.jpg";
-import two from "../../public/2.jpg";
-import three from "../../public/3.jpg";
-
-// Import without SSR
-const Slider = dynamic(() => import("react-slick"), { ssr: false });
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-function Gallery() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: true,
-  };
-
+const Gallery = () => {
   return (
-    <div className="container mx-auto px-4 py-8 overflow-hidden">
-      <h2 className="text-center text-2xl font-bold mb-6">Gallery</h2>
-      <Slider {...settings} className="w-full">
-        <div className="p-2">
-          <div className="w-full h-auto">
-            <Image
-              src={one}
-              alt="Product 1"
-              className="rounded-lg"
-              layout="responsive"
-              width={800}
-              height={450}
-              sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
-            />
-          </div>
+    <div className="container mx-auto  ">
+      {/* Header Section */}
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-8">Our Gallery</h1>
+        <p className="text-lg mb-8 ">
+          Explore our exclusive collection of firearms, ammunition, and
+          accessories. Each product is carefully curated to ensure quality and
+          satisfaction.
+        </p>
+      </div>
+
+      {/* Carousel Section */}
+      <div className="mb-20">
+        <Carousel />
+      </div>
+
+      {/* Categories or Highlights Section */}
+      <div className="text-center my-12 ">
+        <h2 className="text-2xl font-semibold mt-10 mb-8">
+          Explore by Category
+        </h2>
+        <div className="flex  sm:gap-8 w-full justify-between sm:justify-center text-center ">
+          <Link
+            href="/gallery/firearms"
+            className="sm:px-6 sm:py-4  px-2 py-2  bg-primary rounded-lg
+          hover:bg-primary-dark transition"
+          >
+            Firearms
+          </Link>
+          <Link
+            href="/gallery/ammunition"
+            className="sm:px-6 sm:py-4  px-2 py-2  bg-primary rounded-lg
+          hover:bg-primary-dark transition"
+          >
+            {" "}
+            Ammunition
+          </Link>
+          <Link
+            href="/gallery/accessories"
+            className="sm:px-6 sm:py-4  px-2 py-2  bg-primary rounded-lg
+          hover:bg-primary-dark transition"
+          >
+            {" "}
+            Accessories
+          </Link>
         </div>
-        <div className="p-2">
-          <div className="w-full h-auto">
-            <Image
-              src={two}
-              alt="Product 2"
-              className="rounded-lg"
-              layout="responsive"
-              width={800}
-              height={450}
-              sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
-            />
-          </div>
-        </div>
-        <div className="p-2">
-          <div className="w-full h-auto">
-            <Image
-              src={three}
-              alt="Product 3"
-              className="rounded-lg"
-              layout="responsive"
-              width={800}
-              height={450}
-              sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
-            />
-          </div>
-        </div>
-      </Slider>
+      </div>
+      {/* <Divider className="my-4" /> */}
+      {/* Call to Action Section */}
+      <div className="text-center  p-8  rounded-lg   ">
+        <h3 className="text-3xl font-semibold my-4 ">Visit Us Today</h3>
+        <p className="text-lg  my-10 ">
+          Want to see more? Visit our store for an in-person experience or
+          contact us for personalized support!
+        </p>
+        <Link
+          href="/contact"
+          className="sm:px-6 sm:py-4  px-2 py-2  bg-primary rounded-lg
+          hover:bg-primary-dark transition"
+        >
+          {" "}
+          Contact Us
+        </Link>
+      </div>
     </div>
   );
-}
+};
 
 export default Gallery;

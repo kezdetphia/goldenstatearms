@@ -5,8 +5,8 @@ import { Divider } from "@nextui-org/divider";
 
 export default function Faq() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 space-y-5 text-start">
-      <h1 className="text-3xl font-bold text-center mb-8">
+    <div className="max-w-4xl mx-auto px-4 py-12  space-y-5 text-start">
+      <h1 className="text-3xl font-bold text-center mb-12">
         Frequently Asked Questions
       </h1>
 
