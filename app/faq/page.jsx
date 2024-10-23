@@ -24,8 +24,9 @@ export default function Faq() {
           </p>
           <ul className="list-disc pl-5 space-y-2 mt-2">
             <li>
-              Valid CA ID or CA Driver's License (If your CA DL says "Federal
-              Limits Apply," please bring a passport or a birth certificate).
+              Valid CA ID or CA Driver&apos;s License (If your CA DL says
+              "Federal Limits Apply," please bring a passport or a birth
+              certificate).
             </li>
             <li>2nd Proof of Residence (handguns only).</li>
             <li>Firearms Safety Certificate (FSC) or Valid Exemption.</li>

@@ -51,7 +51,6 @@ export default function Contact() {
 
   return (
     <div className="sm:flex w-screen px-5 sm:justify-around sm:space-x-5 space-y-5  sm:space-y-0 ">
-      {/* /////// Email Form */}
       <div className="sm:w-3/5 w-full flex flex-grow  ">
         <div className=" w-full">
           <Card className="py-1 h-full">

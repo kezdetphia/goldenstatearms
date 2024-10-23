@@ -15,7 +15,7 @@ export default function AboutPage() {
           that in mind, we have accepted the heavy responsibility of being a
           place where people can come and buy firearms and ammunition and
           receive education on how to safely use and handle these tools. God
-          Bless America.{" "}
+          Bless America.
         </p>
       </div>
       <Divider className="my-7" />
@@ -27,30 +27,30 @@ export default function AboutPage() {
           pricing, quality gunsmithing/repair services, and educating people at
           any experience level. Abe was insistent that the customer comes first,
           not our pocket books, so treat the customer well and they will
-          remember you. If you know Abe, you know he's a no hassle, no frills,
-          solid guy, who is always willing to help. It is our mission to carry
-          on this legacy that Abe worked so hard to build and to make him proud
-          as we move forward!
+          remember you. If you know Abe, you know he&apos;s a no hassle, no
+          frills, solid guy, who is always willing to help. It is our mission to
+          carry on this legacy that Abe worked so hard to build and to make him
+          proud as we move forward!
           <br />
           <br />
           Our vision was also influenced by those who are no longer with us. On
           January 2, 2024, in the early morning hours We were informed that we
           lost a close friend. Sergeant Danilo Castaneda, Jr. of the Los Angeles
-          Sheriff's Department, Norwalk Station, was not only a close friend but
-          he was a brother. He was the first one in our group that bought a
-          rifle when we were in college and he was definitely a large influence
-          in getting our group into firearms. He is survived by his wonderful
-          wife and his loving parents. If you would like to learn more about our
-          brother, please check out the following link:
+          Sheriff&apos;s Department, Norwalk Station, was not only a close
+          friend but he was a brother. He was the first one in our group that
+          bought a rifle when we were in college and he was definitely a large
+          influence in getting our group into firearms. He is survived by his
+          wonderful wife and his loving parents. If you would like to learn more
+          about our brother, please check out the following link:
           https://thecurrentreport.com/lasd-sergeant-danilo-castaneda-jr-an-unexpected-passing/
-          This loss has been difficult and we can't deny that it hasn't
-          influenced us in moving forward into the firearms business but we
-          can't think of a better way of honoring our friend and our brother, by
-          getting involved in one of his great passions. In Honor of his life,
-          January will always be a month for Golden State Arms to celebrate him.
-          Stay Tuned for Deals, especially for those in Law Enforcement both
-          active and retired. We appreciate what your and our dearly missed
-          friend's sacrifice for our communities!
+          This loss has been difficult and we can&apos;t deny that it
+          hasn&apos;t influenced us in moving forward into the firearms business
+          but we can&apos;t think of a better way of honoring our friend and our
+          brother, by getting involved in one of his great passions. In Honor of
+          his life, January will always be a month for Golden State Arms to
+          celebrate him. Stay Tuned for Deals, especially for those in Law
+          Enforcement both active and retired. We appreciate what your and our
+          dearly missed friend&apos;s sacrifice for our communities!
         </p>
       </div>
       <Divider className="my-7" />
