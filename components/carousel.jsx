@@ -41,11 +41,9 @@ const Carousel = () => {
         className="w-full"
       >
         <SwiperSlide>
-          <div
-            className="flex justify-center items-center cursor-pointer"
-            onClick={() => handleImageClick(one)}
-          >
+          <div className="flex justify-center items-center cursor-pointer">
             <Image
+              onClick={() => handleImageClick(one)}
               src={one}
               alt="Product 1"
               className="rounded-lg"
@@ -58,11 +56,9 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div
-            className="flex justify-center items-center cursor-pointer"
-            onClick={() => handleImageClick(two)}
-          >
+          <div className="flex justify-center items-center cursor-pointer">
             <Image
+              onClick={() => handleImageClick(two)}
               src={two}
               alt="Product 2"
               className="rounded-lg"
@@ -75,11 +71,9 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div
-            className="flex justify-center items-center cursor-pointer"
-            onClick={() => handleImageClick(three)}
-          >
+          <div className="flex justify-center items-center cursor-pointer">
             <Image
+              onClick={() => handleImageClick(three)}
               src={three}
               alt="Product 3"
               className="rounded-lg"
