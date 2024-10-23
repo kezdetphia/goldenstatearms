@@ -3,9 +3,9 @@ import { Link } from "@nextui-org/link";
 import { Card, CardBody, CardHeader } from "@nextui-org/card";
 import { Snippet } from "@nextui-org/snippet";
 import { Button } from "@nextui-org/button";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
 import { MdPhone, MdLocationOn, MdEmail } from "react-icons/md";
+
+import { title, subtitle } from "@/components/primitives";
 
 export default function Home() {
   return (
@@ -66,7 +66,7 @@ export default function Home() {
       {/* Call to Action - Contact & Location */}
       <div className="w-full sm:w-auto max-w-md mx-auto flex flex-col sm:flex-row gap-4 items-center justify-center mt-8">
         {/* Call Us Button */}
-        <a href="tel:+16268724867" className="w-full sm:w-auto">
+        <a className="w-full sm:w-auto" href="tel:+16268724867">
           <Button as="div" className="w-full sm:w-auto" color="primary">
             <MdPhone className="mr-2" /> Call Us: (626) 872-4867
           </Button>
@@ -74,10 +74,10 @@ export default function Home() {
 
         {/* Location Button */}
         <a
-          href="https://maps.app.goo.gl/hn1HGi19wmEE3BZk8"
-          target="_blank"
-          rel="noopener noreferrer"
           className="w-full sm:w-auto"
+          href="https://maps.app.goo.gl/hn1HGi19wmEE3BZk8"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <Button as="div" className="w-full sm:w-auto" color="primary">
             <MdLocationOn className="mr-2" /> 788 E Alosta Ave, Azusa, CA
@@ -85,7 +85,7 @@ export default function Home() {
         </a>
 
         {/* Email Button */}
-        <a href="mailto:info@goldenstatearms.com" className="w-full sm:w-auto">
+        <a className="w-full sm:w-auto" href="mailto:info@goldenstatearms.com">
           <Button as="div" className="w-full sm:w-auto" color="primary">
             <MdEmail className="mr-2" /> Email: info@goldenstatearms.com
           </Button>
@@ -97,7 +97,7 @@ export default function Home() {
         <Snippet hideCopyButton hideSymbol variant="bordered">
           Visit us to explore our inventory of firearms and accessories, or
           check out our
-          <Link href="/gallery" className="text-primary ml-1">
+          <Link className="text-primary ml-1" href="/gallery">
             Gallery
           </Link>
         </Snippet>

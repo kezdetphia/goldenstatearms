@@ -1,7 +1,4 @@
-import { title } from "@/components/primitives";
-import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
 import { Divider } from "@nextui-org/divider";
-import { Link } from "@nextui-org/link";
 
 export default function AboutPage() {
   return (
