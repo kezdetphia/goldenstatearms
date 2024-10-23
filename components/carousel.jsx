@@ -86,11 +86,9 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div
-            className="flex justify-center items-center cursor-pointer"
-            onClick={() => handleImageClick(two)}
-          >
+          <div className="flex justify-center items-center cursor-pointer">
             <Image
+              onClick={() => handleImageClick(two)}
               src={two}
               alt="Product 2"
               className="rounded-lg"
@@ -107,12 +105,10 @@ const Carousel = () => {
       </Swiper>
 
       {enlargedImage && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
-          onClick={() => setEnlargedImage(null)}
-        >
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
           <div className="relative w-full h-full max-w-4xl max-h-screen">
             <Image
+              onClick={() => setEnlargedImage(null)}
               src={enlargedImage}
               alt="Enlarged Image"
               className="rounded-lg cursor-pointer"
