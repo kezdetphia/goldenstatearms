@@ -13,7 +13,6 @@ export default function Faq() {
       {/* Required Items */}
       <Card variant="bordered">
         <CardHeader>
-          {" "}
           <h3 className="text-xl font-semibold">
             Required Items when Buying a Firearm
           </h3>
@@ -25,8 +24,8 @@ export default function Faq() {
           <ul className="list-disc pl-5 space-y-2 mt-2">
             <li>
               Valid CA ID or CA Driver&apos;s License (If your CA DL says
-              "Federal Limits Apply," please bring a passport or a birth
-              certificate).
+              &quot;Federal Limits Apply,&quot; please bring a passport or a
+              birth certificate).
             </li>
             <li>2nd Proof of Residence (handguns only).</li>
             <li>Firearms Safety Certificate (FSC) or Valid Exemption.</li>

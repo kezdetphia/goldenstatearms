@@ -55,7 +55,7 @@ export default function Contact() {
         <div className=" w-full">
           <Card className="py-1 h-full">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-              <p className="text-md">Send Us an Email</p>
+              <p className="text-md">Send us an Email</p>
               <Divider className="my-3" />
             </CardHeader>
             <CardBody className="flex flex-col h-full justify-between">
