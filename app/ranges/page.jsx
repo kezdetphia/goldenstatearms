@@ -8,7 +8,7 @@ const ranges = [
     name: "Burro Canyon Shooting Park",
     hours: "Mon - Sun 9am - 5pm",
     description:
-      "Southern California&aposs largest outdoor public shooting range and law enforcement training center.",
+      "Southern California&apos;s largest outdoor public shooting range and law enforcement training center.",
     mapLink: "https://maps.app.goo.gl/QSypsK1NA2ofE2X39",
   },
   {
@@ -19,7 +19,7 @@ const ranges = [
     mapLink: "https://maps.app.goo.gl/tNHmEszUoRRwLAKq8",
   },
   {
-    name: "Moore N&apos Moore",
+    name: "Moore N&apos; Moore",
     hours: "Tues, Thurs - Sun 10am - 5pm",
     description:
       "Sporting Clays is the ultimate shotgun sport for those who want to test their skills.",
@@ -42,7 +42,7 @@ const ranges = [
   {
     name: "LA Clays Shooting Park",
     hours: "Tues - Sun 10am - 4pm",
-    description: "Southern California&aposs premier shooting range.",
+    description: "Southern California&apos;s premier shooting range.",
     mapLink: "https://maps.app.goo.gl/QsFw4s5NPWfbWVUs6",
   },
   {
