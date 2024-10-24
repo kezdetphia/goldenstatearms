@@ -3,6 +3,20 @@ import { Divider } from "@nextui-org/divider";
 export default function AboutPage() {
   return (
     <div>
+      <div className="w-full max-w-7xl mx-auto px-4 pb-12 ">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold mb-8">Our Story</h1>
+          <p className="text-lg mb-6">
+            At Golden State, we’re passionate about providing top-quality
+            firearms, accessories, and exceptional customer service.
+          </p>
+          <p className="text-lg">
+            With years of experience in the industry, we pride ourselves on
+            being a trusted source for all your needs, from expert advice to
+            premium products.
+          </p>
+        </div>
+      </div>
       <div className="our-mission ">
         <h1 className="text-start text-xl font-bold pb-5"> Our Mission </h1>
         <p className="text-start">

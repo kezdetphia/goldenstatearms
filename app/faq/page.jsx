@@ -5,10 +5,24 @@ import { Divider } from "@nextui-org/divider";
 
 export default function Faq() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12  space-y-5 text-start">
-      <h1 className="text-3xl font-bold text-center mb-12">
-        Frequently Asked Questions
-      </h1>
+    <div className="max-w-4xl mx-auto px-4   space-y-5 text-start">
+      <div className="w-full max-w-7xl mx-auto px-4 ">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold mb-8">
+            {" "}
+            Frequently Asked Questions
+          </h1>
+          <p className="text-lg mb-6">
+            Got questions about our firearms, accessories, or services?
+            We&apos;ve got the answers! Check out our most frequently asked
+            questions below.
+          </p>
+          <p className="text-lg">
+            Still need help? Feel free to reach out on our contact page, and
+            we&apos;ll be happy to assist you further.
+          </p>
+        </div>
+      </div>
 
       {/* Required Items */}
       <Card variant="bordered">

@@ -56,12 +56,17 @@ const usedItems = [
 
 const UsedItems = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-8">
+    <div className="w-full max-w-7xl mx-auto px-4 ">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Used Items For Sale</h1>
+        <h1 className="text-4xl font-bold mb-8">Used Items For Sale</h1>
         <p className="text-lg mb-6">
-          All Items, first come first served. (Updated: 7/15/2024)
+          Looking for great deals on used firearms and accessories? You’ve come
+          to the right place!
+        </p>
+        <p className="text-lg">
+          Explore our current selection of pre-owned items. These are first
+          come, first served—so don’t miss out!
         </p>
       </div>
 

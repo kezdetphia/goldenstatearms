@@ -9,7 +9,7 @@ const Gallery = () => {
     <div className="container mx-auto  ">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-8">Our Gallery</h1>
+        <h1 className="text-4xl font-bold mb-6">Our Gallery</h1>
         <p className="text-lg mb-8 ">
           Explore our exclusive collection of firearms, ammunition, and
           accessories. Each product is carefully curated to ensure quality and
