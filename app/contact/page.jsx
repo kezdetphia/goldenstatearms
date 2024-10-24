@@ -55,12 +55,13 @@ export default function Contact() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-8">Get in Touch With Us!</h1>
           <p className="text-lg mb-6">
-            Whether you're ready to gear up or need some advice, don't hesitate
-            to reach out. Let's chat and make your next visit a blast!
+            Whether you&apos;re ready to gear up or need some advice, don&apos;t
+            hesitate to reach out. Let&apos;s chat and make your next visit a
+            blast!
           </p>
           <p className="text-lg">
-            Need directions? Check out the map for our exact location. We’re
-            looking forward to hearing from you!
+            Need directions? Check out the map for our exact location.
+            We&apos;re looking forward to hearing from you!
           </p>
         </div>
       </div>
